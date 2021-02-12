@@ -5,6 +5,7 @@ require(`dotenv`).config({
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
+  pathPrefix: "/gatsby-min",
   siteMetadata: {
     siteTitle: `Brian Hochhalter`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
