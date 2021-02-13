@@ -8,13 +8,15 @@ module.exports = {
   pathPrefix: "/gatsby-min",
   siteMetadata: {
     siteTitle: `Brian Hochhalter`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Brian Hochhalter - Design leadership and DesignOps`,
+    siteDescription: `Brian Hochhalter amplifies the impact of design teams through design leadership, design operations (designops), mentoring, training, design culture, critique, and design program management.`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        formatString: "LL",
         navigation: [
           {
             title: `Blog`,
