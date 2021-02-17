@@ -19,7 +19,7 @@ module.exports = {
         formatString: "LL",
         navigation: [
           {
-            title: `Blog`,
+            title: `Case Studies`,
             slug: `/blog`,
           },
           {
