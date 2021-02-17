@@ -22,10 +22,6 @@ module.exports = {
             title: `Case Studies`,
             slug: `/blog`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
         ],
         externalLinks: [
           {
